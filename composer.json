@@ -1,0 +1,23 @@
+{
+    "name": "raphhh/ephecencoder",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "symfony/console": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphaël Lefebvre",
+            "email": "raphael@raphaellefebvre.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EphecEncoder\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    }
+}
