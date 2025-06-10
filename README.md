@@ -12,7 +12,7 @@ Version en test!
 
 ## Utilisation
 
- 1. Exporter les points des tests depuis Moodle. Les fichiers doivent être exportés en format CSV.
+ 1. Exporter les points des tests depuis Moodle. Les fichiers doivent être exportés en format CSV. Assurez-vous d'avoir exporté tous les tests de l'examen.
  2. Placer les exports dans le répertoire local `data/moodle`.
  3. Exporter les templates du cours depuis e-perso. Les fichiers doivent être exportés en format Excel.
  4. Placer les templates dans le répertoire local `data/templates`.
