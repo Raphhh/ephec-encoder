@@ -35,10 +35,17 @@ class NotesInjector
         $students = $templateSheet->extractStudentsRows();
         foreach ($students as $matricule => $student) {
             if (isset($notes[$matricule])) {
-                $student->setNote($notes[$matricule]);
+                $student->setNote(
+                    $this->formatNote($notes[$matricule])
+                );
             } else {
                 $student->setNote('A'); //"A" pour "absent"
             }
         }
+    }
+
+    private function formatNote($note)
+    {
+        return round($note * 20, 1);
     }
 }

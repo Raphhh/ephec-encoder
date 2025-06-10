@@ -66,7 +66,7 @@ class NoteExtractorCsvStrategy
 
     private function formatNote($note, $total)
     {
-        return $this->stringToFloat($note) / $total * 20;
+        return $this->stringToFloat($note) / $total;
     }
     
     private function stringToFloat($string)
